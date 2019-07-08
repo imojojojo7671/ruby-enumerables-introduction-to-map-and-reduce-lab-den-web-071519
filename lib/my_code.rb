@@ -38,4 +38,4 @@ def reduce_to_total(source_array, starting_point = 0)
     count += 1
     array_total
   end
-#end
+end
