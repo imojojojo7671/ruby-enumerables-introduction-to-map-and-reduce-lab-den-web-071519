@@ -46,6 +46,6 @@ def reduce_to_all_true(source_array)
     if source_array[index] == TRUE
       truthy_array += 1
     }
-  truthy_array == source_array.length ? return (TRUE)
+#  truthy_array == source_array.length ? return (TRUE)
 
 end
