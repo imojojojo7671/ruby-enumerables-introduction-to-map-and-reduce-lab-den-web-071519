@@ -58,9 +58,9 @@ def reduce_to_any_true(source_array)
   source_array.length.times { |index|
     if source_array[index]
       return true
-    else falsey_array +=1  
+    else falsey_array +=1
     }
-  if falsey_array != 0 
+  if falsey_array != 0
     return false
   end
 end
