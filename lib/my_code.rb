@@ -59,6 +59,7 @@ def reduce_to_any_true(source_array)
     if source_array[index]
       return true
     else falsey_array +=1
+    end
     }
   if falsey_array != 0
     return false
