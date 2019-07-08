@@ -43,8 +43,9 @@ end
 def reduce_to_all_true(source_array)
   truthy_array = 1
   source_array.length.times { |index|
-    if source_array[index] == True
+    if source_array[index] == true
       truthy_array += 1
+    end  
     }
 #  truthy_array == source_array.length ? return (TRUE)
 
