@@ -36,6 +36,6 @@ def reduce_to_total(source_array, starting_point = 0)
   while count < source_array.length do
     array_total = array_total + source_array[count].to_i
     count += 1
-    return array_total
-  end
+    end
+  return array_total  
 end
