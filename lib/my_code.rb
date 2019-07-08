@@ -1,1 +1,42 @@
-# My Code here....
+def map_to_negativize(source_array)
+  negative_array = []
+  source_array.length.times { |index|
+    negative_array << source_array[index] * -1
+  }
+  negative_array
+end
+
+def map_to_no_change(source_array)
+  no_change_array = []
+  source_array.length.times { |index|
+    no_change_array << source_array[index]
+  }
+  no_change_array
+end
+
+def map_to_double(source_array)
+  double_array = []
+  source_array.length.times { |index|
+    double_array << source_array[index] * 2
+  }
+  double_array
+end
+
+def map_to_square(source_array)
+  square_array = []
+  source_array.length.times { |index|
+    square_array << source_array[index] ** 2
+  }
+  square_array
+end
+
+def reduce_to_total(source_array, starting_point = 0)
+  array_total = 0
+  count = starting_point
+  runtime = source_array.length - (starting_point +1)
+  runtime.times {
+    array_total = array_total + source_array[count]
+    count += 1
+    array_total
+  }
+end
